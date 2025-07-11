@@ -1,0 +1,11 @@
+nohup: ignoring input
+stated
+Processing Word documents...
+S3 client initialized
+Document processing started
+DOCX processing failed for documents/2012-02-17_error_message/2012-02-17_error_message.docx
+DOCX processing failed for documents/ReportSOW_ASTA_WorkOrder/ReportSOW_ASTA_WorkOrder.docx
+Processed 4552 documents
+4552 documents found
+All documents processed successfully!
+Knowledge base populated successfully!
