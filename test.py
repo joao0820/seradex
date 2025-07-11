@@ -22,7 +22,7 @@ try:
     print("Connection successful!")
 
     cursor = conn.cursor()
-    cursor.execute("SELECT TOP 2 DocumentName, Summary, DocContent, Extension FROM dbo.DocumentRepository")  # Replace with a real table
+    cursor.execute("SELECT TOP 100 DocumentName, Summary, DocContent, Extension FROM dbo.DocumentRepository")  # Replace with a real table
     row_count = 0
     for row in cursor.fetchall():
         row_count += 1
